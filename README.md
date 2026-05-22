@@ -58,15 +58,10 @@ cd janhit
 ---
 
 ## 📱 **Extension View**
-```
- Floating Bubble UI
-<img width="1889" height="859" alt="Screenshot 2026-05-22 152014" src="https://github.com/user-attachments/assets/5d63fe04-df86-4544-8ff0-312339797991" />
 
-
-Analysis Panel
 <img width="1906" height="856" alt="Screenshot 2026-05-22 152103" src="https://github.com/user-attachments/assets/a4c954a2-5901-4cd8-b308-fe82d75792db" />
 
-```
+
 ---
 
 ## 📂 **Project Structure**
@@ -172,5 +167,5 @@ For Educational and Ethical Practice only.
 ---
 
 <p align="center">
-<sub>⭐ Built by Prathamesh Somkuwar | Digdoh, Maharashtra, India | <a href="https://www.linkedin.com/in/prathamesh-somkuwar-a15ab4248/">LinkedIn</a> | Security Odyssey 🏛️ ⭐</sub>
+<sub>⭐ Built by Prathamesh Somkuwar | Nagpur, Maharashtra, India | <a href="https://www.linkedin.com/in/prathamesh-somkuwar-a15ab4248/">LinkedIn</a> | Security Odyssey 🏛️ ⭐</sub>
 </p>
