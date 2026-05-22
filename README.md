@@ -2,7 +2,7 @@
 # 🛡️ Janhit — Privacy Policy Simplifier
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00D4AA&center=true&vCenter=true&width=700&lines=USE+JANHIT+STAY+SAFE;;PRIVACY+POLICIES+TRANSLATED+IN+20%2B+LANGUAGES;SIMPLIFY+LEGAL+JARGON;SECURE+🟢" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=500&color=00D4AA&center=true&vCenter=true&width=700&lines=USE+JANHIT+STAY+SAFE;PRIVACY+POLICIES+TRANSLATED;SIMPLIFY+LEGAL+JARGON;SECURE+🟢" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -20,20 +20,20 @@
 ---
 
 ## 🎯 **Mission Brief**
+```
+Target      : Privacy policies, terms of service, and data‑processing pages  
+Threat Model: Legal‑jargon overload, hidden data collection, uninformed consent  
+Objective   : Real‑time, casual‑language summaries in 20+ languages so users know what they’re agreeing to  
 
-**Target** : Privacy policies, terms of service, and data‑processing pages  
-**Threat Model** : Legal‑jargon overload, hidden data collection, uninformed consent  
-**Objective** : Real‑time, casual‑language summaries in 20+ languages so users know what they’re agreeing to  
+Transformed legalese → Simple, human‑friendly insights
 
-**Transformed legalese → Simple, human‑friendly insights**
-
-| **Metric** | **Pre‑Mission** | **Post‑Mission** | **Improvement** |
-|-----------|-----------------|------------------|-----------------|
-| 📜 **Policy Readability** | Dense legalese | **Bullet‑point summaries** | **+∞** |
-| 🌐 **Language Coverage** | English‑only | **20+ languages** | **+95%** |
-| 🛡️ **User Control** | Blind "I Agree" | **"I Understand & Proceed" or "Go Back"** | **+100%** |
-| 📊 **Data Transparency** | Hidden clauses | **Explicit data‑collection tags** | **+100%** |
-
+| Metric                 | Pre‑Mission    | Post‑Mission                          | Improvement |
+|------------------------|----------------|---------------------------------------|-------------|
+| 📜 Policy Readability | Dense legalese  | Bullet‑point summaries                | +∞          |
+| 🌐 Language Coverage  | English‑only    | 20+ languages                         | +95%        |
+| 🛡️ User Control       | Blind "I Agree" | "I Understand & Proceed" or "Go Back" | +100%       |
+| 📊 Data Transparency  | Hidden clauses  | Explicit data‑collection tags         | +100%       |
+```
 ---
 
 ## ⚙️ **Installation (Developer Mode)**
@@ -58,31 +58,36 @@ cd janhit
 ---
 
 ## 📱 **Extension View**
+```
+ Floating Bubble UI
+<img width="1889" height="859" alt="Screenshot 2026-05-22 152014" src="https://github.com/user-attachments/assets/5d63fe04-df86-4544-8ff0-312339797991" />
 
-### Floating Bubble UI
-<img width="1830" height="996" alt="Janhit bubble UI" src="https://github.com/user-attachments/assets/PUT-ATTACHMENT-URL-HERE" />
 
-### Analysis Panel
-<img width="1830" height="996" alt="Janhit analysis panel" src="https://github.com/user-attachments/assets/PUT-ATTACHMENT-URL-HERE" />
+Analysis Panel
+<img width="1906" height="856" alt="Screenshot 2026-05-22 152103" src="https://github.com/user-attachments/assets/a4c954a2-5901-4cd8-b308-fe82d75792db" />
 
+```
 ---
 
 ## 📂 **Project Structure**
+```
 janhit/
-├── manifest.json      ⭐ Extension manifest (Manifest V3)
-├── background.js      ⭐ Service worker — AI, translation, heuristics
-├── content.js         ⭐ Content script — page detection, bubble, panel UI
-├── styles.css         🎨 Panel & bubble styling
-├── popup.html         ⭐ Extension popup settings
-├── popup.js           ⭐ Popup logic
-├── icons/             🎯 Extension icons (16, 48, 128 PNG)
+├── manifest.json     # ⭐ Extension manifest (Manifest V3)
+├── background.js     # ⭐ Service worker — AI, translation, heuristics
+├── content.js        # ⭐ Content script — page detection, bubble, panel UI
+├── styles.css        # 🎨 Panel & bubble styling
+├── popup.html        # ⭐ Extension popup settings
+├── popup.js          # ⭐ Popup logic
+├── icons/            # 🎯 Extension icons (16, 48, 128 PNG)
 ├── .gitignore
-└── README.md          📄 This file
+└── README.md         # 📄 This file
+```
 
 
 ---
 
 ## 🛡️ **Ethical Disclaimer** ⚠️
+```
 This tool is for EDUCATIONAL PURPOSES ONLY:
 
 ✅ Use on YOUR OWN devices and browsers
@@ -97,27 +102,28 @@ This tool is for EDUCATIONAL PURPOSES ONLY:
 
 ❌ Always respect user privacy, local laws, and applicable terms of service
 
-
+```
 
 ---
 
 ## 🚀 **How Analysis Works**
+```
 
-- **On‑device AI** (Chrome Prompt API) — uses local AI to simplify policy text when available.  
-- **Heuristic fallback** — keyword‑based extraction when AI is not available (matches patterns like “email”, “location”, “payment”, “cookies”, “device”, “tracking”).  
-- **Google Translate API** — translates summaries into non‑English languages when required.  
+- On‑device AI (Chrome Prompt API) — uses local AI to simplify policy text when available.  
+- Heuristic fallback               — keyword‑based extraction when AI is not available (matches patterns like “email”, “location”, “payment”, “cookies”, “device”, “tracking”).  
+- Google Translate API             — translates summaries into non‑English languages when required.  
 
-**User Flow:**
+  User Flow:
 1. Open a privacy policy or terms page.  
 2. Janhit detects the page and shows a blue bubble.  
 3. User clicks the bubble → opens the analysis panel.  
 4. Extension extracts key clauses, tags data types, and summarizes in bullet points.  
 5. User chooses: **"I Understand & Proceed"** or **"Go Back"**.
-
+```
 ---
 
 ## 🌐 **Languages Supported**
-
+```
 - English  
 - हिन्दी (Hindi)  
 - বাংলা (Bengali)  
@@ -138,28 +144,29 @@ This tool is for EDUCATIONAL PURPOSES ONLY:
 - العربية (Arabic)  
 - Português (Portuguese)  
 - Русский (Russian)
-
+```
 ---
 
 ## 🛠️ **Tech Stack**
+```
 
-| Component | Technology |
-|-----------|------------|
-| **Platform** | Chrome Extension (Manifest V3) |
-| **Core Logic** | Vanilla JavaScript (no frameworks) |
-| **Simplification** | Chrome Prompt API (on‑device AI, optional) |
-| **Translation** | Google Translate API (unofficial) |
-| **UI** | HTML + CSS + SVG icons |
-| **Detection** | Content‑script page‑heuristics (privacy/term keywords, URLs) |
-
+| Component          | Technology                                                   |
+|--------------------|--------------------------------------------------------------|
+|   Platform         | Chrome Extension (Manifest V3)                               |
+|   Core Logic       | Vanilla JavaScript (no frameworks)                           |
+|   Simplification   | Chrome Prompt API (on‑device AI, optional)                   |
+|   Translation      | Google Translate API (unofficial)                            |
+|   UI               | HTML + CSS + SVG icons                                       |
+|   Detection        | Content‑script page‑heuristics (privacy/term keywords, URLs) |
+```
 ---
-
-## 📄 **License**
+```
+## 📄 License
 MIT License - Educational Use Only
 Copyright (c) 2026 Prathamesh Somkuwar
 
 For Educational and Ethical Practice only.
-
+```
 
 
 ---
