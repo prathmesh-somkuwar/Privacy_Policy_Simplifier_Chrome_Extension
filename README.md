@@ -155,8 +155,8 @@ This tool is for EDUCATIONAL PURPOSES ONLY:
 |   Detection        | Content‑script page‑heuristics (privacy/term keywords, URLs) |
 ```
 ---
+📄 License
 ```
-## 📄 License
 MIT License - Educational Use Only
 Copyright (c) 2026 Prathamesh Somkuwar
 
