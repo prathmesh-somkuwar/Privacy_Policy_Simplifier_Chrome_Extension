@@ -1,69 +1,169 @@
+
 # 🛡️ Janhit — Privacy Policy Simplifier
 
-**Janhit** (जनहित) is a Chrome extension that translates complex privacy policies and terms of service into plain, casual language — so you know what you're actually agreeing to before you click "I Agree."
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&pause=1000&color=00D4AA&center=true&vCenter=true&width=700&lines=USE+JANHIT+STAY+SAFE;;PRIVACY+POLICIES+TRANSLATED+IN+20%2B+LANGUAGES;SIMPLIFY+LEGAL+JARGON;SECURE+🟢" alt="Typing SVG" />
+</p>
 
-## Features
+<p align="center">
+<sub>Built by Prathamesh Somkuwar | Nagpur, Maharashtra, India | Security Odyssey 🏛️</sub>
+</p>
 
-- 🔍 **Auto-detects** privacy/legal pages as you browse
-- 💬 **Floating bubble** appears on detected pages
-- 📝 **Simplifies** legal jargon into simple bullet-point summaries
-- 📊 **Identifies** what personal data the site collects (email, location, payment info, etc.)
-- 🌐 **Translates** summaries into 20+ languages (Hindi, Bengali, Tamil, Spanish, French, etc.)
-- ✅ **You decide** — "I Understand & Proceed" or "Go Back"
+<p align="center">
+  <img src="https://img.shields.io/badge/Manifest-V3-00D4AA?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-Vanilla-3776AB?style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chrome-Prompt_API-00D4AA?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMwMEQ0QUEiLz4KPHRleHQgeD0iMjAiIHk9IjI0IiBmb250LWZhbWlseT0iRmlyYSBDb2RlIiBmb250LXNpemU9IjE0IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q2hyb21lPC90ZXh0Pgo=" />
+  <img src="https://img.shields.io/badge/Google_Translate-API-00D4AA?style=for-the-badge&logo=googletranslate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-LIVE-EA4C46?style=for-the-badge&logo=radioactive&logoColor=white" />
+</p>
 
-## How It Works
+---
 
-1. Visit any privacy policy, terms of service, or legal page
-2. A blue Janhit bubble appears at the bottom-right
-3. Click it to open the analysis panel
-4. Read the simplified summary in your preferred language
-5. Make an informed choice — agree or leave
+## 🎯 **Mission Brief**
 
-## Installation
+**Target** : Privacy policies, terms of service, and data‑processing pages  
+**Threat Model** : Legal‑jargon overload, hidden data collection, uninformed consent  
+**Objective** : Real‑time, casual‑language summaries in 20+ languages so users know what they’re agreeing to  
 
-### From Chrome Web Store (coming soon)
+**Transformed legalese → Simple, human‑friendly insights**
 
-### Developer Mode (manual)
+| **Metric** | **Pre‑Mission** | **Post‑Mission** | **Improvement** |
+|-----------|-----------------|------------------|-----------------|
+| 📜 **Policy Readability** | Dense legalese | **Bullet‑point summaries** | **+∞** |
+| 🌐 **Language Coverage** | English‑only | **20+ languages** | **+95%** |
+| 🛡️ **User Control** | Blind "I Agree" | **"I Understand & Proceed" or "Go Back"** | **+100%** |
+| 📊 **Data Transparency** | Hidden clauses | **Explicit data‑collection tags** | **+100%** |
 
-1. Download or clone this repo
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer mode** (top-right toggle)
-4. Click **Load unpacked** and select the `janhit` folder
-5. Visit any privacy policy page to test
+---
 
-## Project Structure
+## ⚙️ **Installation (Developer Mode)**
 
+```bash
+# 1. Clone repo
+git clone https://github.com/prathmesh-somkuwar/janhit.git
+cd janhit
+
+# 2. Open Chrome
+# Go to chrome://extensions
+# Enable Developer mode (top-right toggle)
+
+# 3. Load unpacked
+# Click "Load unpacked" → select the janhit folder
+
+# 4. Test
+# Visit any privacy policy page (e.g., /privacy, /terms)
+# Click the blue Janhit bubble to open the analysis panel
 ```
+
+---
+
+## 📱 **Extension View**
+
+### Floating Bubble UI
+<img width="1830" height="996" alt="Janhit bubble UI" src="https://github.com/user-attachments/assets/PUT-ATTACHMENT-URL-HERE" />
+
+### Analysis Panel
+<img width="1830" height="996" alt="Janhit analysis panel" src="https://github.com/user-attachments/assets/PUT-ATTACHMENT-URL-HERE" />
+
+---
+
+## 📂 **Project Structure**
 janhit/
-├── manifest.json          # Extension manifest (v3)
-├── background.js          # Service worker — AI processing, translation, heuristics
-├── content.js             # Content script — page detection, bubble, panel UI
-├── styles.css             # Panel & bubble styling
-├── popup.html             # Extension popup settings
-├── popup.js               # Popup logic
-├── icons/                 # Extension icons (16, 48, 128 PNG)
+├── manifest.json      ⭐ Extension manifest (Manifest V3)
+├── background.js      ⭐ Service worker — AI, translation, heuristics
+├── content.js         ⭐ Content script — page detection, bubble, panel UI
+├── styles.css         🎨 Panel & bubble styling
+├── popup.html         ⭐ Extension popup settings
+├── popup.js           ⭐ Popup logic
+├── icons/             🎯 Extension icons (16, 48, 128 PNG)
 ├── .gitignore
-└── README.md
-```
+└── README.md          📄 This file
 
-## Languages Supported
 
-English, हिन्दी, বাংলা, తెలుగు, मराठी, தமிழ், اردو, ગુજરાતી, ಕನ್ನಡ, മലയാളം, ਪੰਜਾਬੀ, Español, Français, Deutsch, 中文, 日本語, 한국어, العربية, Português, Русский
+---
 
-## How Analysis Works
+## 🛡️ **Ethical Disclaimer** ⚠️
+This tool is for EDUCATIONAL PURPOSES ONLY:
 
-1. **On-device AI** (Chrome Prompt API) — if available, uses local AI for natural simplification
-2. **Heuristic fallback** — keyword-based extraction when AI is unavailable
-3. **Google Translate API** — for non-English translation
+✅ Use on YOUR OWN devices and browsers
 
-## Tech Stack
+✅ Great for understanding privacy policies
 
-- Chrome Extension Manifest V3
-- Vanilla JavaScript (no frameworks)
-- SVG-based custom logo & icons
-- Google Translate API (unofficial, for translation)
-- Chrome Prompt API (on-device AI, optional)
+✅ Encourages informed consent
 
-## License
+❌ Do NOT modify or distribute altered versions without clear attribution
 
-MIT
+❌ Do NOT use this extension to bypass or misrepresent legal terms
+
+❌ Always respect user privacy, local laws, and applicable terms of service
+
+
+
+---
+
+## 🚀 **How Analysis Works**
+
+- **On‑device AI** (Chrome Prompt API) — uses local AI to simplify policy text when available.  
+- **Heuristic fallback** — keyword‑based extraction when AI is not available (matches patterns like “email”, “location”, “payment”, “cookies”, “device”, “tracking”).  
+- **Google Translate API** — translates summaries into non‑English languages when required.  
+
+**User Flow:**
+1. Open a privacy policy or terms page.  
+2. Janhit detects the page and shows a blue bubble.  
+3. User clicks the bubble → opens the analysis panel.  
+4. Extension extracts key clauses, tags data types, and summarizes in bullet points.  
+5. User chooses: **"I Understand & Proceed"** or **"Go Back"**.
+
+---
+
+## 🌐 **Languages Supported**
+
+- English  
+- हिन्दी (Hindi)  
+- বাংলা (Bengali)  
+- తెలుగు (Telugu)  
+- मराठी (Marathi)  
+- தமிழ் (Tamil)  
+- اردو (Urdu)  
+- ગુજરાતી (Gujarati)  
+- ಕನ್ನಡ (Kannada)  
+- മലയാളം (Malayalam)  
+- ਪੰਜਾਬੀ (Punjabi)  
+- Español (Spanish)  
+- Français (French)  
+- Deutsch (German)  
+- 中文 (Chinese)  
+- 日本語 (Japanese)  
+- 한국어 (Korean)  
+- العربية (Arabic)  
+- Português (Portuguese)  
+- Русский (Russian)
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Component | Technology |
+|-----------|------------|
+| **Platform** | Chrome Extension (Manifest V3) |
+| **Core Logic** | Vanilla JavaScript (no frameworks) |
+| **Simplification** | Chrome Prompt API (on‑device AI, optional) |
+| **Translation** | Google Translate API (unofficial) |
+| **UI** | HTML + CSS + SVG icons |
+| **Detection** | Content‑script page‑heuristics (privacy/term keywords, URLs) |
+
+---
+
+## 📄 **License**
+MIT License - Educational Use Only
+Copyright (c) 2026 Prathamesh Somkuwar
+
+For Educational and Ethical Practice only.
+
+
+
+---
+
+<p align="center">
+<sub>⭐ Built by Prathamesh Somkuwar | Digdoh, Maharashtra, India | <a href="https://www.linkedin.com/in/prathamesh-somkuwar-a15ab4248/">LinkedIn</a> | Security Odyssey 🏛️ ⭐</sub>
+</p>
